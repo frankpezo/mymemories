@@ -1,0 +1,779 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Crimson Pro', serif;
+    color: #fff;
+   
+}
+
+/*1. Estilos INDEX*/
+/*nav*/
+#menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    z-index: 9999;
+    background: rgba(0,0,0, .1);
+}
+
+#menu .logo-box{
+    margin-left: 20px;
+}
+.logo-box h1 a{
+    text-decoration: none;
+    font-size: 27px;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+/*lisa menú*/
+#menu .list-container{
+    margin-right: 30px;
+}
+#menu .list-container .lists{
+    display: flex;
+    margin-left: 400px;
+}
+#menu .list-container .lists li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+#menu .list-container .lists li a{
+    text-decoration: none;
+    color: #fff;
+  
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+
+#menu .list-container .lists li a:hover{
+border-bottom: 2px solid  #f77b7d;
+color:  #f77b7d;
+}
+
+#menu .list-container .lists li .usua  div{
+ width: 14px;
+ height: 14px;
+ border: 2px solid red;
+}
+
+/*Lista dos*/
+#menu .list-containerDos{
+    margin-right: 130px;
+}
+
+
+#menu .list-containerDos .listDos{
+    display: flex;
+    margin-left: -105px
+}
+
+#menu .list-containerDos .listDos li{
+    list-style: none;
+}
+
+#menu .list-containerDos .listDos li a{
+    text-decoration: none;
+    margin: 0px 10px;
+    padding: 8px;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+
+/*Img header*/
+
+.img-header{
+    position: relative;
+    width: 100%;
+    height: 110vh;
+    background: url(../img/Moon.svg);
+    background-attachment:fixed;
+    background-position:center;
+    background-size: cover;
+}
+
+.img-header .sgv img{
+    width: 40%;
+    height: 500px;
+  margin-left: 800px;
+  margin-top: 140px;
+}
+
+
+.img-header .bienvenido{
+    position: absolute;
+    top: 0;
+    right: 400px;
+    width: 100%;
+    height: 100%;
+
+  
+
+  /*Para las letras*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.img-header .bienvenido h1{
+    font-size: 65px;
+    color:#fff;
+    font-weight: 200;
+    line-height: 70%;
+}
+.img-header .bienvenido  .memo{
+    font-size: 50px;
+    color:#fff;
+    font-weight: 200;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 75px;
+}
+
+
+
+.img-header .bienvenido hr{
+    width: 400px;
+    height: 2px;
+    background:#f77b7d;
+    padding: 3px;
+    border: none;
+    margin-top: 5px;
+}
+
+.img-header .bienvenido p{
+    font-size: 21px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.img-header .bienvenido .empezar{
+    display: flex;
+    padding-top: 20px;
+
+}
+
+.img-header .bienvenido .empezar p{
+    margin: 0px 10px;
+    padding: 15px;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: 0.3s;
+    
+}
+.img-header .bienvenido .empezar p a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+    padding: 14px;
+}
+
+.img-header .bienvenido .empezar .uno{
+ 
+    border: 2px solid #f77b7d;
+    background:#f77b7d ;
+    
+
+}
+
+.img-header .bienvenido .empezar .uno:hover{
+    border: 2px solid  rgb(25, 163, 189);
+    background: rgb(25, 163, 189);
+    color: #fff;
+}
+
+.img-header .bienvenido .empezar .dos{
+    margin-right: 90px;
+    border: 2px solid #f77b7d;
+}
+
+.img-header .bienvenido .empezar .dos:hover{
+    border: 2px solid  rgb(25, 163, 189);
+    background: rgb(25, 163, 189);
+}
+
+#sectionUno{
+    width: 100%;
+    margin-top: 120px;
+}
+
+#sectionUno h2{
+    width: 450px;
+    font-size: 30px;   
+    padding:10px;
+}
+#sectionUno p{
+    width: 450px;
+    font-size: 18px;
+    text-align:justify;
+     line-height: 25px;
+     
+
+}
+#sectionUno img{
+    width: 550px;
+    height: 330px;
+    border-radius: 10px;  
+             
+              
+}
+
+#sectionUno span{
+  color:rgb(25, 163, 189);
+}
+
+
+#sectionUno  .infoUno .funo{
+     margin:0 780px ;
+}
+
+#sectionUno  .infoUno .fimg img{
+      margin: 0 40px 0 130px;
+      margin-top: -230px;
+      
+      
+}
+
+#sectionUno  .infoDos .fdos{
+    margin:0 100px ;
+    margin-top: 100px;
+}
+
+#sectionUno  .infoDos .fimgdos img{
+      margin-left: 750px;
+     margin-top: -225px;
+     
+}
+/*Footer*/
+footer .copyright{
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    padding: 65px 0;
+    background: url(../img/Moon.svg);
+    height: 10vh; 
+}
+
+
+/* NORMAL*/
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family:  'Slabo 27px', serif;
+    font-weight: normal;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}   
+
+a:hover{
+    text-decoration: underline;
+}
+
+.contenedor{
+    max-width: 1000px;
+    width: 90%;
+    margin: auto;
+}
+
+.izquierda{
+    float: left;
+}
+
+.derecha{
+    float: right;
+}
+
+
+/*Fotos*/
+.fotos{
+    padding-top: 100px;
+}
+.fotos .contenedor{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.thumb{
+    width: 22%;
+    
+    margin-bottom: 30px;
+    outline: 5px solid rgba(255,255,255,0);
+    box-shadow: 2px 2px 3px rgba(0,0,0, .8);
+    transition: all .3s ease;
+}
+
+.thumb:hover{
+    outline: 5px solid rgba(255,255,255,1);
+}
+
+.thumb a{
+    display: block;
+}
+
+.thumb img{
+    vertical-align: top;
+    width: 100%;
+   height: 290px;
+    
+}
+
+/* SINGLE FOTO */
+.foto{
+    width: 100%;
+    margin: auto;
+    max-width: 500px;
+    text-align: center;
+  
+}
+
+.foto img{
+    width: 100%;
+    vertical-align: top;
+    box-shadow: 2px 2px 3px rgba(0,0,0, .8);
+    margin-bottom: 30px;
+}
+
+.foto .text{
+    max-width: 500px;
+    margin-bottom: 30px;
+}
+
+.regresar{
+    padding: 5px 10px;
+    margin-bottom: 30px;
+    display: inline-block;
+    border-radius: 50px;
+    font-size: 16px;
+    border: 1px solid rgba(255,255,255,.2);
+    transition: all .3s ease;
+}
+
+.regresar:hover{
+    border: 1px solid #fff;
+    text-decoration: none;
+}
+
+.regresar .fa{
+    margin-right: 15px;
+}
+
+
+/* PAGINACIÓN*/
+.paginacion{
+    width: 100%;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.paginacion a{
+    display: inline-block;
+    padding: 15px 20px;
+    border-radius: 50px;
+    border: 1px solid rgba(255,255,255,.2);
+    transition: all .3s ease;
+}
+
+.paginacion a:hover{
+    border: 1px solid #fff;
+    text-decoration: none;
+}
+
+.paginacion .izquierda .fa{
+    margin-right: 10px;
+}
+
+.paginacion .derecha .fa{
+    margin-left: 10px;
+}
+
+/* FORMULARIO */
+.fotos-2{
+    padding-top: 200px;
+   
+}
+.contenedor-sub{
+    max-width: 1000px;
+    margin: auto;
+     
+}
+
+.formulario{
+    max-width: 500px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.formulario label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.formulario .error{
+    border: 1px solid red;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="file"],
+.formulario textarea{
+    width: 100%;
+    margin-bottom: 30px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.formulario input[type="text"],
+.formulario textarea{
+    padding: 10px;
+    background: none;
+    font-family: 'Crimson Pro', serif;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+
+
+.formulario textarea{
+    min-height: 76px;
+    max-height: 150px;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.formulario textarea:focus{
+    border: 1px solid rgba(255,255,255,.5);
+}
+
+.formulario .submit{
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 50px;
+    border:1px solid rgba(255,255,255,.2);
+    background:#f77b7d;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.formulario .submit:hover{
+    border: 1px solid rgba(255,255,255,1);
+}
+
+.img-header .sgv2 img{
+     
+  margin-bottom: 100px;
+}
+.img-header .sgv2 img{
+    width:30%;
+    height:350px;
+  margin-left: 20px; 
+  margin-top: -900px;
+}
+
+/*Subir fotos*/
+/* PAGINACIÓN*/
+
+.subirfoto{
+    width: 100%;
+    margin-bottom: 5px;
+    overflow: hidden;
+    font-size: 15px;
+    
+    
+
+}
+
+.subirfoto a{
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 50px;
+    border: 1px solid #f77b7d;
+    transition: all .3s ease;
+    color:  #f77b7d;
+    margin-right: 20px;
+    
+}
+
+.subirfoto a:hover{
+    border: 1px solid #f77b7d;
+    text-decoration: none;
+    background:  #f77b7d;
+    color: #fff;
+    
+}
+
+.subirfoto .derecha i{
+    margin-left: 10px;
+   
+}
+
+
+/*Mostrar fotos*/
+/* HEADER*/
+
+.img-header .head{
+    width: 500px;
+    margin-left: 500px;
+    border: 1 solid red;
+    padding-block-start: 70px;
+}
+.img-header .head img{
+    border: 2px solid #fff;
+}
+
+.img-header .head h1{
+    padding-block-end: 20px;
+    font-family: 'Crimson Pro', serif;
+    font-size: 35px;
+    
+    
+}
+
+.img-header .head .contenedor-sub p{
+    padding-block-end: 10px;
+    font-size: 20px;
+    font-family: 'Crimson Pro', serif;
+}
+
+
+/* IMG HEADER*/
+.img-header .sgv-2 img{
+    width: 25%;
+    height: 300px;
+  margin-left: 150px;
+  margin-top: 140px;
+  padding-block-end: 30px;
+  border-radius: 20px;
+
+}
+
+.img-header .sgv-3 {
+    margin-top: -300px;
+ 
+}
+.img-header .sgv-3 img{
+    width: 40%;
+    height: 500px;
+  margin-left: 890px;
+ 
+}
+
+.img-header .bienvenidodos{
+    position: absolute;
+    top: 0;
+    right: 400px;
+    width: 100%;
+    height: 100%;
+
+  
+
+  /*Para las letras*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.img-header .bienvenidodos .empezardos{
+    display: flex;
+    padding-top: 20px;
+
+}
+
+.img-header .bienvenidodos .empezardos p{
+    margin: 0px 10px;
+    padding: 15px;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: 0.3s;
+    
+}
+.img-header .bienvenidodos .empezardos p a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+    padding: 14px;
+}
+
+.img-header .bienvenidodos .empezardos .uno{
+ 
+    border: 2px solid #f77b7d;
+    background:#f77b7d ;
+    
+
+}
+
+.img-header .bienvenidodos .empezardos .uno:hover{
+    border: 2px solid  rgb(25, 163, 189);
+    background: rgb(25, 163, 189);
+    color: #fff;
+}
+
+.img-header .bienvenidodos .empezardos .dos{
+    margin-right: 90px;
+    border: 2px solid #f77b7d;
+}
+
+.img-header .bienvenidodos .empezardos .dos:hover{
+    border: 2px solid  rgb(25, 163, 189);
+    background: rgb(25, 163, 189);
+}
+
+
+/* ACERCA*/
+
+.img-header{
+    position: relative;
+    width: 100%;
+    height: 110vh;
+    background: url(../img/Moon.svg);
+    background-attachment:fixed;
+    background-position:center;
+    background-size: cover;
+}
+
+.img-header .sgv3 img{
+    width: 40%;
+    height: 400px;
+  margin-left: 800px;
+  margin-top: 140px;
+}
+
+
+.img-header .bienvenido2{
+    position: absolute;
+    top: 0;
+    right: 400px;
+    width: 100%;
+    height: 100%;
+
+  
+
+  /*Para las letras*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.img-header .bienvenido2 h1{
+
+    color:#fff;
+    font-weight: 200;
+    line-height: 70%;
+    margin-top: -250px;
+}
+.img-header .bienvenido2  .memo2{
+    font-size: 10px;
+    color:#f77b7d;
+    font-weight: 200;
+    font-family: 'Permanent Marker', serif;
+    font-size: 70px;
+}
+
+
+
+
+
+.img-header .bienvenido2 p{
+    font-size: 21px;
+    color: #fff;
+    margin-top: 20px;
+    font-size:25px;
+    text-align:center;
+    padding-left: 65px;
+}
+
+
+/*4*/
+
+.img-header .sgv4 img{
+    width: 40%;
+    height: 400px;
+  margin-left: 60px;
+
+  margin-top: -10px;
+
+}
+
+
+.img-header .bienvenido4{
+    position: absolute;
+    top: 560px;
+   left: 800px;
+    width: 40%;
+    height: 30%;
+
+  
+
+  /*Para las letras*/
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
+
+}
+
+.img-header .bienvenido4 h1{
+
+    color:#fff;
+    font-weight: 200;
+    line-height: 70%;
+    margin-top: -250px;
+}
+.img-header .bienvenido4  .memo4{
+    font-size: 10px;
+    color:#f77b7d;
+    font-weight: 200;
+    font-family: 'Permanent Marker', serif;
+    font-size: 75px;
+}
+
+
+
+
+
+.img-header .bienvenido4 p{
+    font-size: 21px;
+    color: #fff;
+    margin-top: 20px;
+    font-size:25px;
+text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
