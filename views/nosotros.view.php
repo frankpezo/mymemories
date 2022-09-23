@@ -30,7 +30,7 @@
              
             
              <p>Tenemos el claro objetivo de proporcionar al usuario una experiencia sencilla y disfrutable a la hora de navegar por los 
-                sitios desarrollados como también contribuir  al desarrollo de nuestra amazonía por medio de nuestra tecnología 
+                sitios desarrollados como también contribuir  al desarrollo de nuestra amazonía por medio de nuestra tecnología. 
              </p>
              
          </div>
