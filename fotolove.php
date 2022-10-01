@@ -10,6 +10,18 @@ $statement->execute();
 
 
  $id_actual= (isset($_GET['id']) ? (int)$_GET['id'] :  1);
+ $accion = isset($_POST['accion'])?$_POST['accion']:'';
+
+ if($accion != ''){
+    switch($accion){
+      case 'borrar':
+         $sql = "DELETE FROM fotoslove WHERE id= $id_actual";
+         $consulta = $conexion->prepare($sql);
+         $consulta->execute();
+         header('Location: love.php');
+        break;
+    }
+ }
 
 
 require 'views/fotolove.view.php';

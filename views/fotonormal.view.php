@@ -17,8 +17,13 @@
 <!-- Estructura de las fotos --->
 <div class="contenedor-sub">
     <div class="foto">
+    <form action="" Method="POST">
          <img src="fotos/normal/<?php echo $fo['imagen'] ?>" alt="">
          <p class="texto"><?php echo $fo['texto']; ?></p>
+         <button class="btnBorrar" type="submit" name="accion" value="borrar"><i class="fa-solid fa-trash"></i>   Borrar</button>
+
+         
+</form>
          <div class="re">
          <a href="normal.php" class="regresar"><i class="fa-solid fa-arrow-left-long"></i> Regresar</a>
          </div>
